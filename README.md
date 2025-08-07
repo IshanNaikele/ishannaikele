@@ -63,13 +63,13 @@ I'm a **Computer Science student** at G.H. Raisoni College of Engineering with a
 - **Features**: PDF processing, YouTube transcript analysis, adaptive MCQ generation
 - **Impact**: Personalized learning experiences with automated scoring
 
-### 🎤 [AI-Powered Interview Preparation System](https://github.com/IshanNaikele/ai-interview-prep)
+### 🎤 [AI-Powered Interview Preparation System](https://github.com/IshanNaikele/AI-Powered-Interview-Q-A-Generator-API)
 > **Intelligent interview prep with role-specific questions**
 - **Tech Stack**: FastAPI, Streamlit, Google Gemini, Ollama (Mistral)
 - **Features**: Resume analysis, technical & HR question generation, multi-format support
 - **Achievement**: 98% document parsing accuracy
 
-### 📄 [Intelligent Resume Classification System](https://github.com/IshanNaikele/resume-classifier)
+### 📄 [Intelligent Resume Classification System](https://github.com/IshanNaikele/Resume-Analyzer-new)
 > **ML-powered resume classifier with 92% accuracy**
 - **Tech Stack**: Scikit-learn, TF-IDF, Streamlit, NLP
 - **Features**: 25+ job role categorization, real-time predictions, confidence scoring
