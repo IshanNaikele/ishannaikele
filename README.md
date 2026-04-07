@@ -1,7 +1,7 @@
 # 👋 Hey there! I'm Ishan Naikele
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=600&height=60&lines=AI%2FML+Engineer;Full-Stack+AI+Developer;MLOps+Enthusiast" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=2196F3&center=true&vCenter=true&width=600&height=60&lines=AI%2FML+Engineer;Full-Stack+AI+Developer;LLM+Systems+Builder" alt="Typing SVG" />
 </div>
 
 <div align="center">
@@ -16,9 +16,9 @@
 
 ## 🚀 About Me
 
-**AI/ML Engineer** specializing in **Generative AI, LLMs, and production-ready ML systems**. Currently working as an AI/ML Developer Intern at **Computer Software Solutions LLC**, building intelligent recruitment automation systems. With **8.91 CGPA** and hands-on experience across the entire AI/ML stack, I've deployed **5+ end-to-end applications** and solved **290+ coding problems**.
+**AI/ML Engineer** specializing in **Generative AI, LLMs, and production-ready ML systems**. Currently working as an AI/ML Developer Intern at **Computer Software Solutions LLC**, building intelligent recruitment automation systems. With **8.91 CGPA** and hands-on experience across the entire AI/ML stack, I've deployed **5+ end-to-end applications** and solved **527+ coding problems**.
 
-🔬 **Deep Expertise In**: RAG Systems, Multi-Agent AI, Transformers, NLP, Deep Learning, MLOps  
+🔬 **Deep Expertise In**: RAG Systems, Multi-Agent AI, Transformers, NLP, Deep Learning  
 🛠️ **Current Work**: AI-powered resume-job matching using NLP and MongoDB at Computer Software Solutions LLC  
 📍 **Location**: Nagpur, Maharashtra, India  
 🎓 **Expected Graduation**: May 2027 | B.Tech Computer Science & Engineering
@@ -42,8 +42,8 @@
 ![LangChain](https://img.shields.io/badge/LangChain-121212?style=flat-square&logo=chainlink&logoColor=white)
 ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C1C1C?style=flat-square&logo=graphql&logoColor=white)
 ![CrewAI](https://img.shields.io/badge/CrewAI-FF6B6B?style=flat-square&logo=ai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F54E2B?style=flat-square&logo=groq&logoColor=white)
 
 ### 🌐 Backend & APIs
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
@@ -56,54 +56,65 @@
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
-![Neo4j](https://img.shields.io/badge/Neo4j-008CC1?style=flat-square&logo=neo4j&logoColor=white)
 ![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6347?style=flat-square&logo=database&logoColor=white)
 
-### ☁️ DevOps & Cloud
+### ☁️ Cloud & DevOps
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
-![NGINX](https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white)
- 
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
 ---
 
 ## 🏆 Featured Projects
 
-### 🔍 [NexusQuery: Enterprise-Grade Hybrid Search & RAG Engine](https://github.com/IshanNaikele/NexusQuery-Project)
-> **Advanced multi-source RAG system with knowledge graph integration**
-- **Tech Stack**: FastAPI, LangChain, Pinecone, FAISS, Neo4j, Docker, AWS
-- **Innovation**: Hybrid search combining semantic + keyword search with Reciprocal Rank Fusion
-- **Architecture**: Multi-source ingestion (PDFs, web docs, PostgreSQL), Neo4j knowledge graph for structured reasoning
-- **MLOps**: Full CI/CD pipeline with GitHub Actions, containerized deployment, NGINX reverse proxy
+### 📋 [ComplianceIQ — RAG Compliance Assistant](https://github.com/IshanNaikele/ComplianceIQ)
+> **Enterprise RAG system for natural language compliance queries over AICPA SOC2 documentation**
+- **Tech Stack**: LangChain, FAISS, Groq API, Streamlit
+- **Pipeline**: Engineered a document ingestion pipeline processing a 74-page compliance document into 480 semantic chunks with embedding generation and FAISS vector search
+- **LLM Integration**: Groq-hosted LLM for grounded, source-cited answer generation over compliance-specific queries
+- **Impact**: Enables non-technical teams to query complex compliance criteria in plain English with accurate, cited responses
+
+### 🎬 [AI Content Operations Platform](https://github.com/IshanNaikele/AI-Content-Operations-Platform)
+> **Autonomous multi-stage AI platform that generates full marketing campaigns from a single topic**
+- **Tech Stack**: FastAPI, LangChain, FFmpeg, AWS EC2
+- **Architecture**: Parallel async processing using `asyncio.gather` running blog, image, and video generation pipelines concurrently
+- **Video Pipeline**: 8-stage automated pipeline — script generation → Google TTS narration → image generation → FFmpeg video assembly with subtitle rendering
+- **Output**: Generates complete campaigns including blog posts, images, and videos from one topic input
+
+### 🩺 [DermAssist AI — Skin Lesion Classification](https://github.com/IshanNaikele/DermAssist-Ai)
+> **Deep learning system for real-time dermoscopy image classification across 7 lesion types**
+- **Tech Stack**: TensorFlow, Keras, FastAPI
+- **Model**: Fine-tuned MobileNetV2 via transfer learning on 10,015 dermoscopy images (HAM10000 dataset) across 7 skin lesion classes
+- **Pipeline**: Image preprocessing with hair removal, normalization, and class imbalance handling via weighted training and oversampling
+- **API**: FastAPI inference endpoint delivering real-time predictions with confidence scores and risk-level assessments
 
 ### 🎓 [ScholarMate - AI Learning Assistant](https://github.com/IshanNaikele/ScholarMate)
-> **Comprehensive full-stack AI learning platform with LLM integration**
-- **Tech Stack**: FastAPI, LangChain, Groq API, Multiple LLMs, Streamlit
+> **Full-stack AI learning platform with LLM integration for students**
+- **Tech Stack**: FastAPI, LangChain, Groq API, Streamlit
 - **Features**: PDF & YouTube transcript processing, contextual Q&A, adaptive MCQ generation with auto-scoring
-- **Architecture**: Modular microservices, session memory management, comprehensive error handling
+- **Architecture**: Modular microservices with session memory management and comprehensive error handling
 
 ### 🎤 [AI-Powered Interview Preparation System](https://github.com/IshanNaikele/AI-Powered-Interview-Q-A-Generator-API)
-> **Intelligent interview prep with role-specific question generation**
+> **Intelligent interview prep with role-specific question generation from resumes**
 - **Tech Stack**: FastAPI, Google Gemini API, Ollama (Mistral), Streamlit
 - **Features**: Resume analysis, technical & HR question generation, multi-format support (PDF, DOCX, TXT)
-- **Performance**: 98% parsing accuracy, scalable concurrent user handling, optimized API calls
+- **Performance**: 98% parsing accuracy, scalable concurrent user handling
 
 ### 📄 [Intelligent Resume Classification System](https://github.com/IshanNaikele/Resume-Analyzer-new)
 > **ML-powered resume classifier with advanced NLP**
 - **Tech Stack**: Scikit-learn, TF-IDF, NLTK, Streamlit
 - **ML Pipeline**: Feature engineering, multiple classification algorithms, hyperparameter tuning
-- **Results**: 92% accuracy across 25+ job categories, 40% faster inference with optimization
+- **Results**: 92% accuracy across 25+ job categories, 40% faster inference with optimized preprocessing
 
 ---
 
 ## 💼 Professional Experience
 
 ### 🚀 AI/ML Developer Intern | Computer Software Solutions LLC
-**Sept 2025 – Present**
-- Building AI-powered **resume-job matching system** using Python, NLP, and machine learning for automated candidate-job compatibility scoring
-- Designing and optimizing **MongoDB schemas** for efficient storage/retrieval of resume data and job descriptions
-- Implementing **ML models** for resume parsing, keyword extraction, and similarity matching algorithms
+**Sept 2025 – Nov 2025**
+- Developed and deployed a **Generative AI candidate-job matching microservice** on AWS EC2 processing resume and job description data for automated candidate evaluation
+- Built **FastAPI APIs** for resume parsing, job description analysis, and compatibility scoring while integrating structured data from multiple MongoDB collections
+- Designed an **LLM pipeline** extracting required and optional skills from job descriptions and performing skill gap analysis between candidates and role requirements
 
 ---
 
@@ -121,21 +132,15 @@
 - **Advanced**: Transformers, Self-Attention, Multi-Head Attention, Encoder-Decoder, Seq2Seq with Attention
 
 ### 🤖 Generative AI & LLMs
-- **LangChain Mastery**: Document loaders, text splitters, embeddings (OpenAI, Ollama, Hugging Face), vector stores (FAISS, ChromaDB, Pinecone)
+- **LangChain**: Document loaders, text splitters, embeddings (OpenAI, Ollama, Hugging Face), vector stores (FAISS, ChromaDB, Pinecone)
 - **RAG Systems**: Advanced retrieval techniques, hybrid search, Reciprocal Rank Fusion, document Q&A, web content RAG
 - **LLM Integration**: OpenAI API, Groq API, Google Gemini, Mistral, Ollama (local LLMs), CodeLlama
-- **Multi-Agent Systems**: CrewAI, LangGraph for stateful workflows and multi-AI agent applications
-- **Knowledge Graphs**: Neo4j integration with LangChain, Cypher query language, structured reasoning
-- **LLM Fine-tuning**: Quantization, LoRA, QLoRA for efficient fine-tuning (Google Gemma, Lamini AI Cloud)
+- **Multi-Agent Systems**: CrewAI for multi-AI agent applications
 
-### 🛠️ MLOps & Backend Development
-- **FastAPI Expertise**: RESTful APIs, Pydantic validation, automatic documentation, routers, middleware
-- **Database Management**: PostgreSQL, MySQL, MongoDB, SQLAlchemy ORM, raw SQL, complex joins, relationships
-- **Authentication**: JWT tokens, OAuth2, password hashing, protected routes, session management
-- **Testing**: Pytest, fixtures, parametrization, TestClient, dedicated test databases
-- **Deployment**: Heroku, AWS (SageMaker, Lambda, Bedrock), Ubuntu VMs with Gunicorn + NGINX, SSL/HTTPS
-- **Containerization**: Docker, Docker Compose, Docker Hub, multi-stage builds
-- **CI/CD**: GitHub Actions for automated testing, building, and deployment pipelines
+### 🛠️ Backend & Deployment
+- **FastAPI**: RESTful APIs, Pydantic validation, automatic documentation, routers, middleware
+- **Database Management**: PostgreSQL, MySQL, MongoDB, SQLAlchemy ORM, raw SQL, complex joins
+- **Deployment**: AWS EC2, Docker, Docker Compose, Docker Hub 
 
 ---
 
@@ -162,9 +167,9 @@
 
 | Platform | Problems Solved | Focus Areas |
 |----------|-----------------|-------------|
-| **LeetCode** | 135+ | Algorithms, Data Structures, Dynamic Programming |
-| **GeeksforGeeks** | 158+ | DSA, Graph Algorithms, Optimization |
-| **Total** | **290+** | **Competitive Programming & System Design** |
+| **LeetCode** | 250+ | Algorithms, Data Structures, Dynamic Programming |
+| **GeeksforGeeks** | 277+ | DSA, Graph Algorithms, Optimization |
+| **Total** | **527+** | **Competitive Programming & System Design** |
 
 </div>
 
@@ -174,31 +179,25 @@
 
 🥇 **Academic Excellence**: 8.91 CGPA in Computer Science & Engineering  
 💼 **Industry Experience**: AI/ML Developer Intern at Computer Software Solutions LLC  
-🚀 **Production Systems**: Deployed 5+ end-to-end AI applications  
-👥 **Hackathon Leadership**: Led cross-functional teams in 3+ major hackathons, building ML/AI applications under 24-48 hour constraints  
-⚡ **Performance Optimization**: Achieved 40% improvement in classification speed through optimized preprocessing  
-🎯 **Model Accuracy**: Developed production models with 92-98% accuracy rates  
-🔬 **Research & Development**: Deep expertise in cutting-edge GenAI, RAG systems, and multi-agent architectures
+🚀 **Systems**: Developed multiple end-to-end AI applications  
+👥 **Hackathon Leadership**: Led cross-functional teams in 3+ hackathons, building ML/AI applications under 24-48 hour constraints  
 
 ---
 
 ## 🌟 What Sets Me Apart
 
-- **Full-Stack AI Engineer**: End-to-end development from ML model design to production deployment with MLOps
-- **Advanced GenAI Expertise**: Multi-agent systems, hybrid RAG, knowledge graphs, LLM fine-tuning
+- **Full-Stack AI Engineer**: End-to-end development from ML model design to production deployment on AWS
 - **Multi-LLM Integration**: Hands-on experience with OpenAI, Groq, Ollama, Google Gemini, Mistral
-- **Production-Ready Systems**: Scalable architectures with 95%+ uptime, CI/CD pipelines, containerization
-- **Real-World Impact**: Building AI solutions actively and currently working on enterprise recruitment automation
-- **Continuous Innovation**: Always exploring cutting-edge technologies - from Transformers to Multi-Agent Systems
+- **Production-Ready Systems**: Scalable architectures deployed on AWS EC2 with Docker containerization
+- **Continuous Innovation**: Always exploring cutting-edge technologies — from Transformers to Multi-Agent Systems
 
 ---
 
 ## 📈 Current Focus
 
-🔬 **Building**: AI-powered recruitment automation with NLP at Computer Software Solutions LLC  
-🚀 **Exploring**: Advanced Multi-Agent Systems, LangGraph stateful workflows, Graph RAG  
-🛠️ **Mastering**: Hybrid Search optimization, LLM fine-tuning with LoRA/QLoRA, Kubernetes  
-📚 **Learning**: Cloud-native MLOps, AWS SageMaker, Vector database optimization  
+🚀 **Exploring**: Advanced Multi-Agent Systems with CrewAI, Graph RAG architectures  
+🛠️ **Mastering**: Hybrid Search optimization, LLM fine-tuning with LoRA/QLoRA  
+📚 **Learning**: Cloud-native deployments on AWS, Vector database optimization  
 🎯 **Goal**: Contributing to open-source AI/ML projects and building scalable GenAI solutions
 
 ---
