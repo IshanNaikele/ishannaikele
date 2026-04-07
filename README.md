@@ -16,10 +16,10 @@
 
 ## 🚀 About Me
 
-**AI/ML Engineer** specializing in **Generative AI, LLMs, and production-ready ML systems**. Currently working as an AI/ML Developer Intern at **Computer Software Solutions LLC**, building intelligent recruitment automation systems. With **8.91 CGPA** and hands-on experience across the entire AI/ML stack, I've deployed **5+ end-to-end applications** and solved **527+ coding problems**.
+**AI/ML Engineer** focused on turning cutting-edge research into production-ready AI systems from LLM pipelines and RAG architectures to deep learning APIs.
 
 🔬 **Deep Expertise In**: RAG Systems, Multi-Agent AI, Transformers, NLP, Deep Learning  
-🛠️ **Current Work**: AI-powered resume-job matching using NLP and MongoDB at Computer Software Solutions LLC  
+🛠️ **Ex-Intern**:Computer Software Solutions LLC · Built a GenAI recruitment pipeline on AWS EC2
 📍 **Location**: Nagpur, Maharashtra, India  
 🎓 **Expected Graduation**: May 2027 | B.Tech Computer Science & Engineering
 
@@ -67,7 +67,7 @@
 
 ## 🏆 Featured Projects
 
-### 📋 [ComplianceIQ — RAG Compliance Assistant](https://github.com/IshanNaikele/ComplianceIQ)
+### 📋 [ComplianceIQ : RAG Compliance Assistant](https://github.com/IshanNaikele/ComplianceIQ)
 > **Enterprise RAG system for natural language compliance queries over AICPA SOC2 documentation**
 - **Tech Stack**: LangChain, FAISS, Groq API, Streamlit
 - **Pipeline**: Engineered a document ingestion pipeline processing a 74-page compliance document into 480 semantic chunks with embedding generation and FAISS vector search
@@ -81,7 +81,7 @@
 - **Video Pipeline**: 8-stage automated pipeline — script generation → Google TTS narration → image generation → FFmpeg video assembly with subtitle rendering
 - **Output**: Generates complete campaigns including blog posts, images, and videos from one topic input
 
-### 🩺 [DermAssist AI — Skin Lesion Classification](https://github.com/IshanNaikele/DermAssist-Ai)
+### 🩺 [DermAssist AI : Skin Lesion Classification](https://github.com/IshanNaikele/DermAssist-Ai)
 > **Deep learning system for real-time dermoscopy image classification across 7 lesion types**
 - **Tech Stack**: TensorFlow, Keras, FastAPI
 - **Model**: Fine-tuned MobileNetV2 via transfer learning on 10,015 dermoscopy images (HAM10000 dataset) across 7 skin lesion classes
@@ -148,16 +148,12 @@
 
 <div align="center">
   
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=IshanNaikele&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false)
+ 
 ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=IshanNaikele&theme=tokyonight&hide_border=true)
 
 </div>
 
-<div align="center">
-  
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=IshanNaikele&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
-</div>
+ 
 
 ---
 
